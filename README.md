@@ -58,9 +58,9 @@ Each run:
 - Stores timestamp and experiment ID
 
 Experiments can be reproduced by re-running:
-
+```bash
 python -m src.train --config configs/baseline.yaml
-
+```
 ## Results
 
 | Model | CV Accuracy | Seed |
