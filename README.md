@@ -39,8 +39,11 @@ Your `pyproject.toml` must include:
 ## Project Structure
 
 configs/        # Experiment configurations
+
 src/            # Core training and evaluation logic
+
 results/        # Structured run outputs
+
 notebooks/      # Result analysis
 scripts/        # Execution helpers
 
