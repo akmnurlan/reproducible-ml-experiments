@@ -17,6 +17,25 @@ This repository provides a minimal yet disciplined experiment framework includin
 
 The goal is to make experimental results traceable, comparable, and repeatable.
 
+## Features
+- Config-driven training (`configs/*.yaml`)
+- Deterministic seed control
+- K-fold cross-validation
+- Structured logging to `results/runs.csv`
+- Config snapshots saved to `results/config_<id>.json`
+
+## Run
+```bash
+pip install -e .
+python -m src.train --config configs/baseline.yaml
+python -m src.train --config configs/sweep.yaml
+```
+## Required dependency note
+Your `pyproject.toml` must include:
+- `pyyaml`
+- `numpy`
+- `scikit-learn`
+
 ## Project Structure
 
 configs/        # Experiment configurations
