@@ -2,6 +2,8 @@
 
 A lightweight, config-driven template for structured and reproducible machine learning experiments.
 
+⚠️ Work in progress – minimal implementation in progress.
+
 ## Motivation
 
 Reproducibility is fundamental to scientific machine learning.  
