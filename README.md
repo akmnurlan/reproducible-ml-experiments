@@ -45,6 +45,7 @@ src/            # Core training and evaluation logic
 results/        # Structured run outputs
 
 notebooks/      # Result analysis
+
 scripts/        # Execution helpers
 
 ## Reproducibility Protocol
