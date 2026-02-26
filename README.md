@@ -57,7 +57,7 @@ Experiments can be reproduced by re-running:
 
 python -m src.train --config configs/baseline.yaml
 
-## Example Results
+## Results
 
 | Model | CV Accuracy | Seed |
 |-------|------------|------|
