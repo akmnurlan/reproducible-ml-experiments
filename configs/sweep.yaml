@@ -1,1 +1,25 @@
+experiment:
+  name: sweep_lr_C
+  output_dir: results
 
+data:
+  n_samples: 2000
+  n_features: 20
+  n_informative: 10
+  n_redundant: 5
+  class_sep: 1.0
+  flip_y: 0.01
+
+model:
+  type: logistic_regression
+  params:
+    max_iter: 1000
+  sweep:
+    C: [0.1, 0.5, 1.0, 2.0, 5.0]
+
+cv:
+  folds: 5
+  shuffle: true
+
+run:
+  seed: 42
